@@ -1,0 +1,20 @@
+.min-w-80 {
+  min-width: 70px;
+}
+
+.transition-transform {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08) !important;
+}
+
+.transition-color {
+  transition: color 0.2s ease-in-out;
+}
+
+.hover-text-primary:hover {
+  color: #0d47a1 !important;
+}
